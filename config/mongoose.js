@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 
-mongoose.connect('mongodb://127.0.0.1:27017/csv_upload_db',{
+mongoose.connect('mongodb+srv://ayushsaxena38:Ayush@12345@cluster0.dwrztdb.mongodb.net/',{
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
