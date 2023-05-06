@@ -5,7 +5,7 @@ module.exports.home = async function(req, res){
     try{
 
         const csvFiles = await CSV.find({});
-
+            console.log(csvFiles);
             return res.render('home',{
             files : csvFiles,
             title: 'Home',
